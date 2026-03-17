@@ -24,7 +24,7 @@ export function ImageCarousel() {
           align: 'start',
           loop: true,
         }}
-        className="w-full max-w-xs"
+        className="w-full max-w-sm"
       >
         <CarouselContent>
           {carouselImages.map((image) => (
@@ -34,16 +34,16 @@ export function ImageCarousel() {
                   src={image.imageUrl}
                   alt={image.description}
                   data-ai-hint={image.imageHint}
-                  width={270}
-                  height={382}
+                  width={297}
+                  height={420}
                   className="object-cover aspect-[210/297]"
                 />
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious variant="default" className="transition-transform hover:scale-105" />
+        <CarouselNext variant="default" className="transition-transform hover:scale-105" />
       </Carousel>
     </div>
   );
