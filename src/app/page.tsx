@@ -15,12 +15,11 @@ export default function UpsellPage() {
         <h1 className="text-[23px] md:text-3xl font-extrabold text-center my-8 md:my-12 text-foreground font-headline leading-tight">
           Você garantiu o seu Planejamento. Mas o que você vai escrever no <span className="text-primary">RELATÓRIO</span> de avaliação no final do bimestre?
         </h1>
-        <p className="text-center text-foreground/80 -mt-6 mb-10 max-w-2xl mx-auto">Frases e parágrafos prontos no Word para você copiar, colar e avaliar alunos de inclusão com segurança, praticidade e zero dor de cabeça.</p>
-
+        
         <ImageCarousel />
 
         <div className="bg-card border rounded-xl p-6 md:p-8 shadow-md text-lg text-foreground/90 space-y-4 my-8 md:my-12 text-left sm:text-center max-w-2xl mx-auto">
-          <p>Parabéns, professora! Seus +200 Modelos de PEI já estão sendo enviados para o seu e-mail. Você acaba de resolver a pior parte do planejamento.</p>
+          <p>Parabéns, professora! Seus +200 Modelos de PEI já estão sendo enviados para o seu e--mail. Você acaba de resolver a pior parte do planejamento.</p>
           <p>Mas, e quando chegar o final do bimestre? Você vai perder o seu final de semana novamente pensando nas palavras exatas para não ofender os pais e cumprir as exigências do MEC no relatório do aluno de inclusão?</p>
           <p><strong>Para que você nunca mais trave na frente do Word, eu liberei um material complementar exclusivo: O Banco de Frases para Relatórios de Inclusão.</strong></p>
           <ul className='list-disc pl-5 mt-6 mb-4 space-y-2 text-left max-w-md mx-auto'>
