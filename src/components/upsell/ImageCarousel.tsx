@@ -43,8 +43,8 @@ export function ImageCarousel() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious variant="default" className="transition-transform hover:scale-105" />
-      <CarouselNext variant="default" className="transition-transform hover:scale-105" />
+      <CarouselPrevious variant="default" className="-left-4 transition-all hover:scale-110 hover:shadow-xl" />
+      <CarouselNext variant="default" className="-right-4 transition-all hover:scale-110 hover:shadow-xl" />
     </Carousel>
   );
 }
