@@ -18,7 +18,7 @@ export default function UpsellPage() {
 
         <ImageCarousel />
 
-        <div className="text-lg text-foreground/90 space-y-4 my-8 md:my-12 text-left sm:text-center max-w-2xl mx-auto">
+        <div className="bg-card border rounded-xl p-6 md:p-8 shadow-md text-lg text-foreground/90 space-y-4 my-8 md:my-12 text-left sm:text-center max-w-2xl mx-auto">
           <p>Parabéns, professora! Seus +200 Modelos de PEI já estão sendo enviados para o seu e-mail. Você acaba de resolver a pior parte do planejamento.</p>
           <p>Mas, e quando chegar o final do bimestre? Você vai perder o seu final de semana novamente pensando nas palavras exatas para não ofender os pais e cumprir as exigências do MEC no relatório do aluno de inclusão?</p>
           <p><strong>Para que você nunca mais trave na frente do Word, eu liberei um material complementar exclusivo: O Banco de Frases para Relatórios de Inclusão.</strong></p>
