@@ -1,0 +1,28 @@
+import { Lock, ShieldCheck } from "lucide-react";
+
+export function Footer() {
+  return (
+    <footer className="bg-white py-8 mt-12 border-t border-gray-200/80">
+      <div className="container mx-auto px-4 text-center text-muted-foreground">
+        <div className="flex justify-center items-center space-x-6 mb-4">
+          <div className="flex items-center space-x-2 text-sm">
+            <Lock className="h-4 w-4" />
+            <span>Compra Segura</span>
+          </div>
+          <div className="flex items-center space-x-2 text-sm">
+            <ShieldCheck className="h-4 w-4" />
+            <span>SSL Certificado</span>
+          </div>
+        </div>
+        <div className="text-xs space-x-4">
+          <a href="#" className="hover:underline">Políticas de Privacidade</a>
+          <span>|</span>
+          <a href="#" className="hover:underline">Termos de Uso</a>
+        </div>
+        <p className="text-xs mt-4">
+          © {new Date().getFullYear()} Mestre da Avaliação. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  );
+}
