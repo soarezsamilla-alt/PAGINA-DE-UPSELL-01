@@ -91,8 +91,8 @@ export default {
             boxShadow: '0 10px 15px -3px hsl(var(--primary) / 0.1)',
           },
           '50%': {
-            transform: 'scale(1.03)',
-            boxShadow: '0 20px 25px -5px hsl(var(--primary) / 0.2), 0 8px 10px -6px hsl(var(--primary) / 0.2)',
+            transform: 'scale(1.02)',
+            boxShadow: '0 15px 20px -5px hsl(var(--primary) / 0.15), 0 6px 8px -6px hsl(var(--primary) / 0.15)',
           },
         },
         'pulse-arrow': {
@@ -103,7 +103,7 @@ export default {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-        'custom-pulse': 'custom-pulse 2.5s ease-in-out infinite',
+        'custom-pulse': 'custom-pulse 3s ease-in-out infinite',
         'pulse-arrow': 'pulse-arrow 2s ease-in-out infinite'
       },
     },
