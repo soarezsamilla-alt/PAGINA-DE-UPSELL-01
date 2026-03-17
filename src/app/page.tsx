@@ -44,7 +44,7 @@ export default function UpsellPage() {
                 <Check className="mr-2 h-6 w-6" />
                 SIM! ADICIONAR POR APENAS R$ 9,90
             </Button>
-            <p className="text-sm text-foreground/90">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
+            <p className="text-sm text-foreground">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
         </div>
 
         <div className="text-center my-8">
