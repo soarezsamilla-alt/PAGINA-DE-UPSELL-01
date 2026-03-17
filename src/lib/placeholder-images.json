@@ -17,6 +17,12 @@
       "description": "A vibrant and engaging classroom setting.",
       "imageUrl": "https://image2url.com/r2/default/images/1773761561372-f8bdbdb9-0a4b-4422-a44c-4daa746c91c0.png",
       "imageHint": "classroom students"
+    },
+    {
+      "id": "carousel-4",
+      "description": "Sample report created using the 'Banco de Frases' material.",
+      "imageUrl": "https://image2url.com/r2/default/images/1773762190482-9ee0afc6-97ed-491b-be07-406c5898c339.png",
+      "imageHint": "report example"
     }
   ]
 }
