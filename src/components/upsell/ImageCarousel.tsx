@@ -18,33 +18,31 @@ export function ImageCarousel() {
   }
     
   return (
-    <div className="w-full flex justify-center">
-      <Carousel
-        opts={{
-          align: 'start',
-          loop: true,
-        }}
-        className="w-full max-w-sm"
-      >
-        <CarouselContent>
-          {carouselImages.map((image) => (
-            <CarouselItem key={image.id}>
-              <div className="overflow-hidden rounded-lg">
-                <Image
-                  src={image.imageUrl}
-                  alt={image.description}
-                  data-ai-hint={image.imageHint}
-                  width={297}
-                  height={420}
-                  className="object-cover aspect-[210/297]"
-                />
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious variant="default" className="transition-transform hover:scale-105" />
-        <CarouselNext variant="default" className="transition-transform hover:scale-105" />
-      </Carousel>
-    </div>
+    <Carousel
+      opts={{
+        align: 'start',
+        loop: true,
+      }}
+      className="w-full max-w-sm mx-auto"
+    >
+      <CarouselContent>
+        {carouselImages.map((image) => (
+          <CarouselItem key={image.id}>
+            <div className="overflow-hidden rounded-lg">
+              <Image
+                src={image.imageUrl}
+                alt={image.description}
+                data-ai-hint={image.imageHint}
+                width={297}
+                height={420}
+                className="object-cover aspect-[210/297]"
+              />
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious variant="default" className="transition-transform hover:scale-105" />
+      <CarouselNext variant="default" className="transition-transform hover:scale-105" />
+    </Carousel>
   );
 }
