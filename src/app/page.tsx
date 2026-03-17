@@ -12,7 +12,7 @@ export default function UpsellPage() {
       <main className="container mx-auto max-w-3xl px-4 py-8 md:py-12 flex-grow">
         <UrgencyAlert />
 
-        <h1 className="text-3xl md:text-4xl font-extrabold text-center my-8 md:my-12 text-foreground font-headline leading-tight">
+        <h1 className="text-[23px] md:text-3xl font-extrabold text-center my-8 md:my-12 text-foreground font-headline leading-tight">
           Você garantiu o seu Planejamento. Mas o que você vai escrever no RELATÓRIO de avaliação no final do bimestre?
         </h1>
 
