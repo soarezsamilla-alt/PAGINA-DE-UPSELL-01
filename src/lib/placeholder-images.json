@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "carousel-1",
+      "description": "A teacher helping a student in a classroom.",
+      "imageUrl": "https://picsum.photos/seed/carousel1/270/480",
+      "imageHint": "teacher student"
+    },
+    {
+      "id": "carousel-2",
+      "description": "A child focused on writing in a notebook.",
+      "imageUrl": "https://picsum.photos/seed/carousel2/270/480",
+      "imageHint": "child writing"
+    },
+    {
+      "id": "carousel-3",
+      "description": "A vibrant and engaging classroom setting.",
+      "imageUrl": "https://picsum.photos/seed/carousel3/270/480",
+      "imageHint": "classroom students"
+    }
+  ]
 }

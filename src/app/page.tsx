@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ProgressBar } from '@/components/upsell/ProgressBar';
 import { UrgencyAlert } from '@/components/upsell/UrgencyAlert';
-import { VslPlayer } from '@/components/upsell/VslPlayer';
+import { ImageCarousel } from '@/components/upsell/ImageCarousel';
 import { Footer } from '@/components/upsell/Footer';
 
 export default function UpsellPage() {
@@ -16,7 +16,7 @@ export default function UpsellPage() {
           Você garantiu o seu Planejamento. Mas o que você vai escrever no RELATÓRIO de avaliação no final do bimestre?
         </h1>
 
-        <VslPlayer />
+        <ImageCarousel />
 
         <div className="text-lg text-foreground/90 space-y-4 my-8 md:my-12 text-left sm:text-center max-w-2xl mx-auto">
           <p>Parabéns, professora! Seus +200 Modelos de PEI já estão sendo enviados para o seu e-mail. Você acaba de resolver a pior parte do planejamento.</p>
