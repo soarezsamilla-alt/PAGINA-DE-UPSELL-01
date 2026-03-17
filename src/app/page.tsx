@@ -15,6 +15,7 @@ export default function UpsellPage() {
         <h1 className="text-[23px] md:text-3xl font-extrabold text-center my-8 md:my-12 text-foreground font-headline leading-tight">
           Você garantiu o seu Planejamento. Mas o que você vai escrever no <span className="text-primary">RELATÓRIO</span> de avaliação no final do bimestre?
         </h1>
+        <p className="text-center text-foreground/80 -mt-6 mb-10 max-w-2xl mx-auto">Frases e parágrafos prontos no Word para você copiar, colar e avaliar alunos de inclusão com segurança, praticidade e zero dor de cabeça.</p>
 
         <ImageCarousel />
 
@@ -43,7 +44,7 @@ export default function UpsellPage() {
                 <Check className="mr-2 h-6 w-6" />
                 SIM! ADICIONAR POR APENAS R$ 9,90
             </Button>
-            <p className="text-sm text-muted-foreground">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
+            <p className="text-sm text-foreground/90">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
         </div>
 
         <div className="text-center my-8">
