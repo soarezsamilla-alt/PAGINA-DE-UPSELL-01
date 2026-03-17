@@ -29,7 +29,7 @@ export function ImageCarousel() {
         {carouselImages.map((image) => (
           <CarouselItem key={image.id}>
             <div className="flex justify-center">
-              <div className="overflow-hidden rounded-lg">
+              <div className="overflow-hidden rounded-lg relative">
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
@@ -38,13 +38,18 @@ export function ImageCarousel() {
                   height={420}
                   className="object-cover aspect-[210/297]"
                 />
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <div className="bg-black/50 text-white text-lg font-semibold py-2 px-8 rounded-lg backdrop-blur-sm">
+                    Amostras
+                  </div>
+                </div>
               </div>
             </div>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious variant="default" className="-left-4 transition-all hover:scale-110 hover:shadow-xl" />
-      <CarouselNext variant="default" className="-right-4 transition-all hover:scale-110 hover:shadow-xl" />
+      <CarouselPrevious variant="default" className="-left-4 transition-all hover:scale-110 hover:shadow-xl animate-pulse-arrow" />
+      <CarouselNext variant="default" className="-right-4 transition-all hover:scale-110 hover:shadow-xl animate-pulse-arrow" />
     </Carousel>
   );
 }
