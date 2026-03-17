@@ -28,15 +28,17 @@ export function ImageCarousel() {
       <CarouselContent>
         {carouselImages.map((image) => (
           <CarouselItem key={image.id}>
-            <div className="overflow-hidden rounded-lg">
-              <Image
-                src={image.imageUrl}
-                alt={image.description}
-                data-ai-hint={image.imageHint}
-                width={297}
-                height={420}
-                className="object-cover aspect-[210/297]"
-              />
+            <div className="flex justify-center">
+              <div className="overflow-hidden rounded-lg">
+                <Image
+                  src={image.imageUrl}
+                  alt={image.description}
+                  data-ai-hint={image.imageHint}
+                  width={297}
+                  height={420}
+                  className="object-cover aspect-[210/297]"
+                />
+              </div>
             </div>
           </CarouselItem>
         ))}
