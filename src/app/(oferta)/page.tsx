@@ -1,9 +1,9 @@
 import { Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ProgressBar } from '@/components/upsell/ProgressBar';
-import { UrgencyAlert } from '@/components/upsell/UrgencyAlert';
-import { ImageCarousel } from '@/components/upsell/ImageCarousel';
-import { Footer } from '@/components/upsell/Footer';
+import { ProgressBar } from './components/ProgressBar';
+import { UrgencyAlert } from './components/UrgencyAlert';
+import { ImageCarousel } from './components/ImageCarousel';
+import { Footer } from './components/Footer';
 
 export default function UpsellPage() {
   return (
@@ -43,9 +43,11 @@ export default function UpsellPage() {
         </div>
 
         <div className="flex flex-col items-center gap-2 max-w-md mx-auto my-8">
-            <Button size="lg" className="w-full h-auto py-4 text-lg md:text-xl font-bold animate-custom-pulse shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <Check className="mr-2 h-6 w-6" />
-                SIM! ADICIONAR POR APENAS R$ 9,90
+            <Button asChild size="lg" className="w-full h-auto py-4 text-lg md:text-xl font-bold animate-custom-pulse shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <a href="https://pay.wiapy.com/checkout/69b98c2cdbad674b5707c3bb">
+                    <Check className="mr-2 h-6 w-6" />
+                    SIM! ADICIONAR POR APENAS R$ 9,90
+                </a>
             </Button>
             <p className="text-sm text-foreground">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
         </div>
