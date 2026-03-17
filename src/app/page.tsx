@@ -48,7 +48,7 @@ export default function UpsellPage() {
         </div>
 
         <div className="text-center my-8">
-            <a href="#" className="text-muted-foreground hover:text-foreground/70 underline text-sm">
+            <a href="#" className="text-muted-foreground underline text-sm transition-opacity hover:opacity-70">
                 Não, obrigado. Eu prefiro perder horas do meu final de semana pensando no que escrever no relatório.
             </a>
         </div>
