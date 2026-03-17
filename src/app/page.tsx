@@ -13,7 +13,7 @@ export default function UpsellPage() {
         <UrgencyAlert />
 
         <h1 className="text-[23px] md:text-3xl font-extrabold text-center my-8 md:my-12 text-foreground font-headline leading-tight">
-          Você garantiu o seu Planejamento. Mas o que você vai escrever no RELATÓRIO de avaliação no final do bimestre?
+          Você garantiu o seu Planejamento. Mas o que você vai escrever no <span className="text-primary">RELATÓRIO</span> de avaliação no final do bimestre?
         </h1>
 
         <ImageCarousel />
