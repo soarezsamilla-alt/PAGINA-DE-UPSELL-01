@@ -35,8 +35,8 @@ export function ImageCarousel() {
                   alt={image.description}
                   data-ai-hint={image.imageHint}
                   width={270}
-                  height={480}
-                  className="object-cover aspect-[9/16]"
+                  height={382}
+                  className="object-cover aspect-[210/297]"
                 />
               </div>
             </CarouselItem>
