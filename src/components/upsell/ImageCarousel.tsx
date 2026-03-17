@@ -28,8 +28,8 @@ export function ImageCarousel() {
       <CarouselContent>
         {carouselImages.map((image) => (
           <CarouselItem key={image.id}>
-            <div className="flex justify-center">
-              <div className="overflow-hidden rounded-lg relative">
+            <div className="flex justify-center p-4">
+              <div className="overflow-hidden rounded-lg relative border border-chart-5/75 shadow-[0_0_15px_3px_hsl(var(--chart-5))]">
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
