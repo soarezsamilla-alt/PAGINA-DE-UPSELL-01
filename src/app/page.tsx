@@ -21,7 +21,11 @@ export default function UpsellPage() {
         <div className="bg-card border rounded-xl p-6 md:p-8 shadow-md text-lg text-foreground/90 space-y-4 my-8 md:my-12 text-left sm:text-center max-w-2xl mx-auto">
           <p>Parabéns, professora! Seus +200 Modelos de PEI já estão sendo enviados para o seu e--mail. Você acaba de resolver a pior parte do planejamento.</p>
           <p>Mas, e quando chegar o final do bimestre? Você vai perder o seu final de semana novamente pensando nas palavras exatas para não ofender os pais e cumprir as exigências do MEC no relatório do aluno de inclusão?</p>
-          <p><strong>Para que você nunca mais trave na frente do Word, eu liberei um material complementar exclusivo: O Banco de Frases para Relatórios de Inclusão.</strong></p>
+          
+          <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 my-4 shadow-inner">
+            <p className="text-center font-semibold">Para que você nunca mais trave na frente do Word, eu liberei um material complementar exclusivo: O Banco de Frases para Relatórios de Inclusão.</p>
+          </div>
+
           <ul className='list-disc pl-5 mt-6 mb-4 space-y-2 text-left max-w-md mx-auto'>
             <li>Frases prontas para TEA, TDAH, Deficiência Intelectual e mais.</li>
             <li>Parágrafos divididos por comportamento, socialização e aprendizagem.</li>
