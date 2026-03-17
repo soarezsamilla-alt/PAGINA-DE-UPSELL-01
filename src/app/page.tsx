@@ -31,7 +31,7 @@ export default function UpsellPage() {
         
         <div className="bg-primary/5 border-2 border-dashed border-primary/20 rounded-xl p-6 md:p-8 text-center max-w-2xl mx-auto my-12 shadow-sm">
             <p className="text-sm text-foreground">
-                Este material é vendido separadamente por <span className="line-through">R$ 47,00</span>. Mas apenas nesta página, para você que já confiou no nosso trabalho, adicione ao seu pedido por:
+                Este material é vendido separadamente por <span className="line-through font-semibold">R$ 47,00</span>. Mas apenas nesta página, para você que já confiou no nosso trabalho, adicione ao seu pedido por:
             </p>
             <p className="text-4xl md:text-5xl font-bold text-primary my-3">
                 Apenas 1x de R$ 9,90
