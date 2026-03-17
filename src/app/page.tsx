@@ -41,7 +41,7 @@ export default function UpsellPage() {
         <div className="flex flex-col items-center gap-2 max-w-md mx-auto my-8">
             <Button size="lg" className="w-full h-auto py-4 text-lg md:text-xl font-bold animate-custom-pulse shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <Check className="mr-2 h-6 w-6" />
-                SIM! QUERO ADICIONAR POR APENAS R$ 9,90
+                SIM! ADICIONAR POR APENAS R$ 9,90
             </Button>
             <p className="text-sm text-muted-foreground">Adicionar com 1 clique (Cobrado no mesmo cartão)</p>
         </div>
