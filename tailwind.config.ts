@@ -86,8 +86,14 @@ export default {
           },
         },
         'custom-pulse': {
-          '0%, 100%': { transform: 'scale(1)', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)' },
-          '50%': { transform: 'scale(1.02)', boxShadow: '0 20px 25px -5px rgba(22, 163, 74, 0.2), 0 8px 10px -6px rgba(22, 163, 74, 0.2)' },
+          '0%, 100%': {
+            transform: 'scale(1)',
+            boxShadow: '0 10px 15px -3px hsl(var(--primary) / 0.1)',
+          },
+          '50%': {
+            transform: 'scale(1.03)',
+            boxShadow: '0 20px 25px -5px hsl(var(--primary) / 0.2), 0 8px 10px -6px hsl(var(--primary) / 0.2)',
+          },
         },
         'pulse-arrow': {
             '0%, 100%': { transform: 'scale(1)' },
