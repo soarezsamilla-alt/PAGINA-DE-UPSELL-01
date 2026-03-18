@@ -44,7 +44,7 @@ export default function UpsellPage() {
 
         <div className="flex flex-col items-center gap-2 max-w-md mx-auto my-8">
             <Button asChild size="lg" className="w-full h-auto py-4 text-lg md:text-xl font-bold animate-custom-pulse shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <a href="https://pay.wiapy.com/checkout/69b9ecce42ab2f2a3f72adaa">
+                <a href="https://pay.wiapy.com/checkout/69ba0f4442ab2f2a3f79cc93">
                     <Check className="mr-2 h-6 w-6" />
                     SIM! ADICIONAR POR APENAS R$ 9,90
                 </a>
