@@ -14,11 +14,6 @@ export function Footer() {
             <span>SSL Certificado</span>
           </div>
         </div>
-        <div className="text-xs space-x-4">
-          <a href="#" className="hover:underline">Políticas de Privacidade</a>
-          <span>|</span>
-          <a href="#" className="hover:underline">Termos de Uso</a>
-        </div>
       </div>
     </footer>
   );
