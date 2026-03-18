@@ -19,9 +19,6 @@ export function Footer() {
           <span>|</span>
           <a href="#" className="hover:underline">Termos de Uso</a>
         </div>
-        <p className="text-xs mt-4">
-          © {new Date().getFullYear()} Mestre da Avaliação. Todos os direitos reservados.
-        </p>
       </div>
     </footer>
   );
